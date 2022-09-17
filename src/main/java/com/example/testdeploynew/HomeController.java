@@ -12,6 +12,6 @@ public class HomeController {
 
     @RequestMapping("/index")
     public String index_2() {
-        return "Trần Hoàng Nam";
+        return "Trần Hoàng Namss";
     }
 }

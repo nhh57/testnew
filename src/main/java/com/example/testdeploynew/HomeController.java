@@ -6,7 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
     @RequestMapping("")
-    public String index(){
+    public String index() {
         return "Nguyễn Hoàng Hải huhuhhihihih";
+    }
+
+    @RequestMapping("/index")
+    public String index_2() {
+        return "Trần Hoàng Nam";
     }
 }
